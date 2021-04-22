@@ -8,9 +8,11 @@
 /* LANDING-PAGE-SECTION */
 .landing-page-sec{
     background-image: url("./Image/landing-page-img.png");
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
     background-color: black;
     height: 800px;
+    margin: 0 auto;
 }
 
 .social-img{
@@ -349,20 +351,20 @@ color: rgba(255, 255, 255, 0.75);
 
    
 
-     #download-2{
-        border: solid 1px white;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        cursor: pointer;
-        width: 47%;
-        font-size: 12px;
+#download-2{
+    border: solid 1px white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    width: 47%;
+    font-size: 12px;
      }
 
      #subscribe-2{
-        padding: 25px;
-        border-bottom-left-radius: 30px;
-        border-top-left-radius: 30px;
-        border: solid 1px;
+    padding: 25px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border: solid 1px;
      }
 
      
@@ -377,7 +379,8 @@ color: rgba(255, 255, 255, 0.75);
     border-radius: 25px;
     background-color: black;
     text-align: center;
-    width: 99%;
+    width: 100%;
+    padding: 10px;
     color: white;
  }
 
@@ -456,5 +459,17 @@ color: rgba(255, 255, 255, 0.75);
      }
      .layer-4{
          display: none;
+     }
+
+     .grouchat-col{
+         padding: 25px;
+     }
+
+     .information-heading{
+         padding: 10px;
+     }
+
+     .unlimited-para{
+         padding-bottom: 29px;
      }
  } 
