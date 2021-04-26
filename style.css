@@ -216,9 +216,9 @@ color: rgba(255, 255, 255, 0.75);
  }
 
  #subscribe{
-     margin: 0 auto;
-     width: 40%;
-     outline: none !important;
+    margin: 0 auto;
+    width: 40%;
+    outline: none !important;
  }
 
  .btn{
@@ -384,92 +384,102 @@ color: rgba(255, 255, 255, 0.75);
     color: white;
  }
 
-    .kick-sec-heading{
-        font-size: 30px;
-        line-height: 37px;
-        text-align: center;
-     }
+      
+ .btn:hover{
+    border-radius: 25px;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+ }
 
-    .information-heading{
-        font-size: 30px;
-        line-height: 37px;
-        text-align: center;
-     }
-
-     .landing-page-content1{
-        line-height: 37px;
-        font-size: 30px;
-        text-align: center;
+  .kick-sec-heading{
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
     }
 
-    .daily-plan-heading{
-        font-size: 30px;
-        line-height: 37px;
-        margin-top: 20%;
+  .information-heading{
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
     }
 
-    .custom-content{
-        font-size: 30px;
-        line-height: 37px;
-        text-align: center;
-        margin-top: 49%;
-    }
-    .highly-experience-heading{
-        font-size: 30px;
-        line-height: 37px;
-        margin-top: 22%;
+    .landing-page-content1{
+    line-height: 37px;
+    font-size: 30px;
+    text-align: center;
     }
 
-    .group-chat-heading{
-        font-size: 30px;
-        line-height: 37px;
-        margin-top: 25%;
+   .daily-plan-heading{
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 20%;
+    }
+
+  .custom-content{
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 49%;
+    }
+  .highly-experience-heading{
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 22%;
+    }
+
+  .group-chat-heading{
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 25%;
     }
 
     .unlimited-heading{
-        font-size: 30px;
-        line-height: 37px;
-        margin-top: 20%;
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 20%;
     }
     .phne-img{
-        margin-top: 0px;
-       position: relative;
-       bottom: 25%;
+    margin-top: 0px;
+    position: relative;
+    bottom: 25%;
     }
     .my-row-2{
-        text-align: center;
+    text-align: center;
     }
     .layer-2{
-        display: none;
+    display: none;
     }
     .layer-1{
-        display: none;
+    display: none;
     }
-     .APPS{
-         width: 80%;
-     }
-     .APPS-2{
-        width: 80%;
+    .APPS{
+    width: 80%;
     }
-     .landing-page-row{
-         text-align: center;
-     }
-     .logo-img{
-         width: 70%;
-     }
-     .layer-4{
-         display: none;
-     }
+    .APPS-2{
+    width: 80%;
+    }
+    .landing-page-row{
+    text-align: center;
+    }
+    .logo-img{
+    width: 70%;
+    }
+    .layer-4{
+    display: none;
+    }
 
-     .grouchat-col{
-         padding: 25px;
-     }
+    .grouchat-col{
+    padding: 25px;
+    }
 
-     .information-heading{
-         padding: 10px;
-     }
+    .information-heading{
+    padding: 10px;
+    }
 
-     .unlimited-para{
-         padding-bottom: 29px;
-     }
+    .unlimited-para{
+    padding-bottom: 29px;
+    }
  } 
