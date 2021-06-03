@@ -18,6 +18,8 @@
            href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lato&family=Open+Sans:wght@300;600&display=swap"
            rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
     <link rel="stylesheet" href="style.css">
     <title>Virtualfit-Web-App</title>
 </head>
@@ -32,7 +34,7 @@
             <img class="logo-img mt-4" src="./Image/logo.png" alt="">
 
             <div class="row landing-page-row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left">
                     <h2 class="landing-page-content1">Home Fitness <br> App for Everyone</h2>
                     <p class="landing-page-content2">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Etiam varius dapibus ipsumin tempor. </p>
@@ -47,7 +49,7 @@
                     </div>
                     <img class="mt-5 layer-2" src="./Image/Layer 2.png" alt="">
                 </div>
-                <div class="col-md-6 ">
+                <div class="col-md-6 " data-aos="fade-right">
                     <img class="mobile-img-3" src="./Image/mobile-img-3.png" alt="">
                     <!-- <img class="phone-img" src="./Image/phone-img.svg" alt=""> -->
                 </div>
@@ -61,31 +63,31 @@
 
         <div class="container">
             <img class="mt-5 layer-4" src="./Image/Layer 4.png" alt="">
-            <h2 class="custom-content">Custom Fitness Plan. <br>
+            <h2 class="custom-content" data-aos="fade-down">Custom Fitness Plan. <br>
                 Designed for you.</h2>
             <div class="row mt-5">
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-right">
                     <img class="icon1" src="./Image/icon-1.png" alt="">
                     <h3 class="custom-inner-content-1">Daily Meal Plan</h3>
                     <p class="custom-inner-pa-1">Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit. </p>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-up">
                     <img class="icon2" src="./Image/icon-2.png" alt="">
                     <h3 class="custom-inner-content-2">Personal Trainers</h3>
                     <p class="custom-inner-pa-2">Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit. </p>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-down">
                     <img class="icon3" src="./Image/icon-3.png" alt="">
                     <h3 class="custom-inner-content-3">Live Session</h3>
                     <p class="custom-inner-pa-3">Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit. </p>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-left">
                     <img class="icon4" src="./Image/icon-4.png" alt="">
                     <h3 class="custom-inner-content-4">Group Workout</h3>
                     <p class="custom-inner-pa-4">Lorem ipsum dolor sit amet,
@@ -98,7 +100,7 @@
     <!-- DAILY-PLAN-SEC -->
     <section class="daily-plan-sec">
         <div class="container">
-            <div class="row p-4 my-row-2">
+            <div class="row p-4 my-row-2" data-aos="fade-right">
                 <div class="col-md-6">
                     <img class="mt-5 ml-5" src="./Image/Layer 5.png" alt="">
                     <h2 class="daily-plan-heading">Daily Meal Plan
@@ -118,7 +120,7 @@
     <!-- HIGHIY-EXPERIENCE -->
     <section class="highly-experience-sec">
         <div class="container">
-            <div class="row my-row-2">
+            <div class="row my-row-2" data-aos="fade-left">
                 <div class="col-md-6 p-4 mb-4 mt-4">
                     <img src="./Image/highly-img.png" alt="" width="90%">
                 </div>
@@ -137,7 +139,7 @@
     <!-- GROUP-CHAT-SEC -->
     <section class="group-chat-sec">
         <div class="container">
-            <div class="row p-4 my-row-2">
+            <div class="row p-4 my-row-2" data-aos="fade-right">
                 <div class="col-md-6">
                     <img src="./Image/Layer 6.png" alt="">
                     <h2 class="group-chat-heading">Group Chat Platform
@@ -157,7 +159,7 @@
     <!-- UNLIMIED-LIVE-SEC -->
     <section class="unlimited-live-sec">
         <div class="container">
-            <div class="row my-row-2">
+            <div class="row my-row-2" data-aos="fade-left">
                 <div class="col-md-6 pt-4 mb-4 mt-4">
                     <img class="hand-img" src="./Image/unlimited-img.png" alt="" width="90%" height="90%">
                 </div>
@@ -177,9 +179,9 @@
     <!-- INFORMATION-SEC -->
     <section class="information-sec ">
         <div class="container">
-            <h2 class="information-heading text-center">Get informed whenever we <br>
+            <h2 class="information-heading text-center" data-aos="fade-right">Get informed whenever we <br>
                 have new offers</h2>
-            <div class="input-group mb-3 mt-5" id="subscribe">
+            <div class="input-group mb-3 mt-5" id="subscribe" data-aos="fade-left">
                 <input type="text" class="form-control" id="subscribe-2" placeholder="Enter your email "
                     aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <div class="input-group-append">
@@ -232,8 +234,13 @@
     </section>
 
 
-
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+             offset: 200,
+             duration: 1000
+         });
+        </script>
 
 
 

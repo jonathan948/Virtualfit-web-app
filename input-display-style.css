@@ -71,6 +71,15 @@ display: flex;
 list-style: none;
 }
 
+.fa{
+margin: 6px;  
+margin-left: 10px; 
+}
+
+.Follow-para{
+margin-top: 6px;   
+}
+
 .fa-facebook-official{
 color: white;
 background-color: black;
@@ -88,16 +97,67 @@ font-size: 20px;
 @media(max-width: 540px){
     .airplane-col-2{
         background: linear-gradient(236.3deg, #C4E5F7 2.62%, #FFFFFF 70%);
-        border-radius: 0px 0px 50px 50px;  
-        width: 80%;
-        margin-bottom: 20px;
+        /* border-radius: 0px 0px 50px 50px;   */
+        /* width: 100%;
+        height: 70vh; */
+        /* margin-bottom: 20px; */
+
+        }
+
+        .airplane-heading{
+        font-size: 32px;
+        line-height: 37px;
+
+        }
+
+        #subscribe{
+        /* margin: 0 auto; */
+        width: 109%;
+        outline: none !important;
+        }
+
+        #subscribe-2{
+        /* padding: 5px; */
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        border: solid 1px;
+        padding: 2%;
+        font-size: 11px;
+        width: 10vh;
+
+        }
+
+        .fa{
+        margin: 0px;  
+        margin-left: 10px; 
+        margin-top: 70px;  
+        }
+
+        .Follow-para{
+        font-size: 11px;  
+        margin-top: 70px;  
+        }
+
+        .btn{
+        /* border-radius: 25px; */
+        background: linear-gradient(81.37deg, #9900CC 6.55%, #00CCFF 91.84%);
+        border-radius: 0px 50px 50px 0px;
+        text-align: center;
+        width: 90%;
+        color: white;
+        font-size: 11px;
         }
 
         .airplane-col{
-            background-color: rgb(3, 3, 63);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 50px 50px 0px 0px;
-        width: 80%;
+        background-color: rgb(3, 3, 63);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: 70vh;
 
-            }
+        }
+
+        .airplane{
+          width: 100%;
+          height: 80%;  
+        }
 }
